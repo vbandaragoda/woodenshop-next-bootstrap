@@ -1,5 +1,5 @@
-import Head from 'next/head'
-
+import Head from "next/head";
+import NavBar from "../components/navbar";
 
 export default function Home() {
   return (
@@ -8,12 +8,13 @@ export default function Home() {
         <title>Woodenshop - Your wooden toy shop</title>
         <meta name="description" content="Wooden toy shop" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <div className="container">
-        <h1>Hello!</h1>
+      <NavBar />
+      <div className="container-lg bg-altsecondary">
+        <h1>This is the custom css primary color</h1>
       </div>
     </>
-  )
+  );
 }
