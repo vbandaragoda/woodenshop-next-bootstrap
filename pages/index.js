@@ -12,9 +12,7 @@ export default function Home() {
       </Head>
 
       <NavBar />
-      <div className="container-lg bg-altsecondary">
-        <h1>This is the custom css primary color</h1>
-      </div>
+      
     </>
   );
 }
