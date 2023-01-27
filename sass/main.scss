@@ -3,6 +3,63 @@ $primary: #f97a0a;
 $secondary: #d4990e;
 $light: #fbf5e5;
 
+
+//custom styles
+.hero-content{
+    padding-top: 35vh;
+}
+
+.hero-p {
+    margin-bottom: -5px;
+    font-size: 16px;
+    color: white;
+}
+
+.hero-h1 {
+   font-size: 66px;
+   color: white
+}
+
+.hero-btn{
+    border-radius: 5px; 
+    color: white;
+    padding: 10px;
+    border: none;
+    background-color: #f97a0a;
+    height: 50px;
+    width: 170px;
+    font-weight: 700;
+}
+
+.icons{
+    display: none;
+}
+@media only screen and (min-width: 992px) {
+    .icons{
+     display: flex;
+    }
+   }
+
+@media only screen and (max-width: 992px) {
+   .icons{
+    display: flex;
+
+   }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .big-logo{
+     display: none;
+    }
+   }
+
+   @media only screen and (min-width: 576px) {
+    .small-logo{
+     display: none;
+    }
+   }
+
+
 //import the functions and variables
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";

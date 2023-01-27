@@ -1,11 +1,19 @@
 const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg sticky-top shadow p-2 mb-5 px-5 bg-body-tertiary rounded">
-        <div className="container-lg">
-          <a className="navbar-brand" href="#">
-            <img src="/logo.png" alt="brand" />
-          </a>
+      <nav className="navbar navbar-expand-lg sticky-top shadow bg-white bg-body-tertiary rounded">
+        <div className="container">
+          <div className="big-logo">
+            <a className="navbar-brand" href="/">
+              <img src="/logo.png" alt="brand" />
+            </a>
+          </div>
+          <div className="small-logo">
+            <a className="navbar-brand" href="/">
+              <img src="/logo-small.png" alt="brand" />
+            </a>
+          </div>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -52,27 +60,31 @@ const NavBar = () => {
                   contact
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link text-dark me-3 me-lg-0" href="#">
-                  <img src="/cart.svg" alt="" />
-                </a>
-              </li>
 
-              <li className="nav-item">
-                <a className="nav-link me-3 me-lg-0" href="#">
-                  <img src="/search.svg" alt="search-icon" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link me-3 me-lg-0" href="#">
-                  <img src="/heart.svg" alt="search-icon" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link me-3 me-lg-0" href="#">
-                  <img src="/user.svg" alt="search-icon" />
-                </a>
-              </li>
+              <div className="icons ">
+                <li className="nav-item">
+                  <a className="nav-link text-dark me-3 me-lg-0" href="#">
+                    <img src="/cart.svg" alt="" />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link me-3 me-lg-0" href="#">
+                    <img src="/search.svg" alt="search-icon" />
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link me-3 me-lg-0" href="#">
+                    <img src="/heart.svg" alt="search-icon" />
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link me-3 me-lg-0" href="#">
+                    <img src="/user.svg" alt="search-icon" />
+                  </a>
+                </li>
+              </div>
             </ul>
           </div>
         </div>
