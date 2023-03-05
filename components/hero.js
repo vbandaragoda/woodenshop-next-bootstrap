@@ -3,7 +3,7 @@ const Hero = () => {
     <>
       <div
         id="intro-example"
-        classNameName="text-center text-lg-center bg-image"
+        className="text-start text-lg-start bg-image"
         style={{
           backgroundImage: `url("/hero-image.jpg")`,
           height: "100vh",
